@@ -6,7 +6,6 @@ import os
 import time
 import keyboard
 
-#pyinstaller --noconsole --onefile --noconfirm --add-data "C:\Users\Paul\AppData\Local\Programs\Python\Python311\Lib\site-packages\customtkinter;customtkinter/" "stockTime.py"
 root = customtkinter.CTk()
 
 root.geometry('400x150')
